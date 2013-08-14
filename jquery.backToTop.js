@@ -26,14 +26,16 @@
 		this.scrollTime = 250;
 		this.revealPosition = 290;
 		this.id = false;
-		this.class = "backtotopSF";
+		this.class = "backToTopSF";
 		this.zIndex = 1000;
 		this.content = "<span class='arrow'></span><span class='text'>back to top</span>";
 		this.fadeInTime = 'fast';
 		this.fadeOutTime = 'fast';
-		$.each(options, function(key, value) {
-			btt[key] = value;	
-		})	
+		if (options) {
+			$.each(options, function(key, value) {
+				btt[key] = value;	
+			})	
+		}
 		
 		this.html = function() {
 			var stringID = ""
