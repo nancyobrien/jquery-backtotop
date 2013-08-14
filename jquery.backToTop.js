@@ -66,7 +66,10 @@
 			$bttEl.find('a').click(function(e){
 				e.preventDefault();
 				if (btt.debug) {window.console && console.log('Scroll to Top');}
-				$('html, body').animate({scrollTop:0}, btt.scrollTime); 
+				$('html, body').animate({scrollTop:0}, btt.scrollTime, function() {
+					setTimeout(function() {$('html,body').scrollTop(0);}, 100);  //Add compatibility for Windows Phone where smooth scrolling stops the animation
+				});
+				
 			});
       	});
    }
