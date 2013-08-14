@@ -17,7 +17,7 @@ revealPosition (290) - number of pixels the page must be scrolled before the Bac
 id (false) - specify an id for the control if you want one
 class (backToTopSF) - class that will be assigned to the container for the Back to Top button
 zIndex (1000) - z-index that will be assigned so the Back to Top button will always be on top
-content (<span class='arrow'></span><span class='text'>back to top</span>) - the text/markup that will be inside the Back to Top button.  This content is wrapped in a <div> and an <a> tag.
+content (<span class='arrow'></span><span class='text'>back to top</span>) - the text/markup that will be inside the Back to Top button.  This content is wrapped in a 'div' and an 'a' tag.
 fadeInTime (fast) - the time it takes for the jQuery animation to show the Back to Top button in (takes milliseconds or an valid jQuery animation time constant)
 fadeOutTime (fast) - the time it takes for the jQuery animation to hide the Back to Top button in (takes milliseconds or an valid jQuery animation time constant)
 
