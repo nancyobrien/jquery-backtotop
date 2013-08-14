@@ -1,0 +1,38 @@
+.backtotopSF {
+    bottom: 30px;
+    position: fixed;
+    right: 30px;
+    text-align: center;
+}
+.backtotopSF a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border: 0 none;
+    border-radius: 8px 8px 8px 8px;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+    opacity: 0.8;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.backtotopSF a:hover {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    color: #FFFFFF;
+    opacity: 1;
+}
+.backtotopSF a span.arrow {
+    border-bottom: 10px solid #FFFFFF;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    display: block;
+    height: 0;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 0;
+}
+.backtotopSF a span.text {
+    display: block;
+    font-size: 11px;
+    width: 40px;
+}
