@@ -28,7 +28,7 @@
 		this.id = false;
 		this.class = "backtotopSF";
 		this.zIndex = 1000;
-		this.content = "back to top";
+		this.content = "<span class='arrow'></span><span class='text'>back to top</span>";
 		this.fadeInTime = 'fast';
 		this.fadeOutTime = 'fast';
 		$.each(options, function(key, value) {
