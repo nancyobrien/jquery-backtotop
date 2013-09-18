@@ -1,10 +1,10 @@
-.backtotopSF {
+.backToTopSF {
     bottom: 30px;
     position: fixed;
     right: 30px;
     text-align: center;
 }
-.backtotopSF a {
+.backToTopSF a {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
     border: 0 none;
     border-radius: 8px 8px 8px 8px;
@@ -16,12 +16,12 @@
     text-decoration: none;
     text-transform: uppercase;
 }
-.backtotopSF a:hover {
+.backToTopSF a:hover {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
     color: #FFFFFF;
     opacity: 1;
 }
-.backtotopSF a span.arrow {
+.backToTopSF a span.arrow {
     border-bottom: 10px solid #FFFFFF;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -31,7 +31,7 @@
     margin-left: 10px;
     width: 0;
 }
-.backtotopSF a span.text {
+.backToTopSF a span.text {
     display: block;
     font-size: 11px;
     width: 40px;
